@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "860897999028",
+    "project_id": "antennapod-e5357",
+    "storage_bucket": "antennapod-e5357.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860897999028:android:fc413da6a5e490aa16ffe1",
+        "android_client_info": {
+          "package_name": "de.danoeh.antennapod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860897999028-m1vkvutvp8sied70qe2k60i22js62tr1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbekitEJxfpYXCSuHGHUxHvH3D_SS0yCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860897999028-m1vkvutvp8sied70qe2k60i22js62tr1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
