@@ -7,4 +7,7 @@ dependencies {
     annotationProcessor "androidx.annotation:annotation:$annotationVersion"
 
     testImplementation "junit:junit:$junitVersion"
+    implementation platform('com.google.firebase:firebase-bom:29.0.4')
 }
+
+apply plugin: 'com.google.gms.google-services'

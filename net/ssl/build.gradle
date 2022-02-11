@@ -9,4 +9,7 @@ dependencies {
 
     playImplementation "com.google.android.gms:play-services-base:$playServicesVersion"
     freeImplementation "org.conscrypt:conscrypt-android:$conscryptVersion"
+    implementation platform('com.google.firebase:firebase-bom:29.0.4')
 }
+
+apply plugin: 'com.google.gms.google-services'

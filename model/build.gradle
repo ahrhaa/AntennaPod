@@ -6,4 +6,7 @@ dependencies {
     implementation "androidx.media:media:$mediaVersion"
 
     implementation "org.apache.commons:commons-lang3:$commonslangVersion"
+    implementation platform('com.google.firebase:firebase-bom:29.0.4')
 }
+
+apply plugin: 'com.google.gms.google-services'

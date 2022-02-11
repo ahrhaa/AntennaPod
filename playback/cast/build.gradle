@@ -14,4 +14,7 @@ dependencies {
 
     playApi 'androidx.mediarouter:mediarouter:1.2.5'
     playApi 'com.google.android.gms:play-services-cast-framework:20.0.0'
+    implementation platform('com.google.firebase:firebase-bom:29.0.4')
 }
+
+apply plugin: 'com.google.gms.google-services'

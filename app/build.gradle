@@ -158,6 +158,7 @@ dependencies {
     implementation 'com.github.skydoves:balloon:1.4.0'
     implementation 'com.github.xabaras:RecyclerViewSwipeDecorator:1.3'
     implementation 'com.annimon:stream:1.2.2'
+    implementation platform('com.google.firebase:firebase-bom:29.0.4')
 
     // Non-free dependencies:
     playImplementation 'com.google.android.play:core:1.8.0'
@@ -193,6 +194,8 @@ task copyLicense(type: Copy) {
 preBuild.dependsOn copyLicense
 
 apply plugin: 'de.timfreiheit.resourceplaceholders.plugin'
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 resourcePlaceholders {
     files = ['xml/shortcuts.xml']
 }

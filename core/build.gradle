@@ -1,6 +1,7 @@
 apply plugin: "com.android.library"
 apply from: "../common.gradle"
 apply from: "../playFlavor.gradle"
+apply plugin: 'com.google.gms.google-services'
 
 android {
     lintOptions {
@@ -62,6 +63,7 @@ dependencies {
     implementation "com.google.android.exoplayer:exoplayer-ui:$exoPlayerVersion"
     implementation "com.google.android.exoplayer:extension-okhttp:$exoPlayerVersion"
     implementation "com.github.AntennaPod:AntennaPod-AudioPlayer:$audioPlayerVersion"
+    implementation platform('com.google.firebase:firebase-bom:29.0.4')
 
     // Non-free dependencies:
     playApi "com.google.android.support:wearable:$wearableSupportVersion"
